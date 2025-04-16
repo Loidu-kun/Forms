@@ -22,6 +22,11 @@ body{
     align-items: center;
     height: 100vh;
     background-color: #E8E8E8;
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .wrapper{
@@ -71,7 +76,7 @@ body{
 .tittle{
     position: relative;
 }
-.tittle-login{
+.tittle-login, .tittle-register{
     position: absolute;
     top: 50%;
     left: 50%;
